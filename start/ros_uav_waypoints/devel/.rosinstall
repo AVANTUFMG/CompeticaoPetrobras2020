@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/luiz/workspace/src/Petrobras_Challenge/start/ros_uav_waypoints/devel/setup.sh

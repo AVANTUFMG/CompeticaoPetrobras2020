@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: waypoint_flier
+Description: Description of waypoint_flier
+Version: 0.0.1
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lWaypointFlier
+Requires: roscpp mrs_lib mrs_msgs geometry_msgs nav_msgs

@@ -1,0 +1,8 @@
+prefix=/home/luiz/workspace/src/Petrobras_Challenge/start/ros_uav_waypoints/devel
+
+Name: waypoint_flier
+Description: Description of waypoint_flier
+Version: 0.0.1
+Cflags: -I/home/luiz/workspace/src/Petrobras_Challenge/start/ros_uav_waypoints/devel/include -I/home/luiz/workspace/src/Petrobras_Challenge/start/ros_uav_waypoints/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lWaypointFlier
+Requires: roscpp mrs_lib mrs_msgs geometry_msgs nav_msgs
